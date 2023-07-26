@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,7 +10,21 @@ module.exports = {
   theme: {
     container: {
       padding: "1rem",
+      screens: {
+        sm: "600px",
+        md: "728px",
+        lg: "800px",
+        xl: "800px",
+        "2xl": "800px",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase, theme }) {
+      addBase({
+        a: { color: theme("colors.purple.800") },
+        "a:hover": { textDecoration: "underline" },
+      });
+    }),
+  ],
 };
