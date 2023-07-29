@@ -2,15 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  background: rgb(76, 0, 136);
-  background: linear-gradient(
+body {
+  background: #1f0038;
+  /* background: linear-gradient(
     29deg,
     rgba(76, 0, 136, 1) 0%,
     rgba(108, 9, 121, 1) 4%,
     rgba(243, 224, 255, 1) 100%
-  );
-} */
+  ); */
+}
+
+@layer base {
+  html {
+    color: white;
+  }
+}
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -19,9 +25,7 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.05em; /* Adjust as needed */
   line-height: 1.4;
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */

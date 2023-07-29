@@ -17,11 +17,11 @@ export const JobExperience = ({
   stack,
 }: Props) => {
   return (
-    <div className="flex gap-4">
-      <div className="flex-none w-25">{period}</div>
+    <div className="flex gap-4 mb-8">
+      <div className="flex-none w-25 text-slate-400 text-sm">{period}</div>
       <div>
         <h3 className="text-xl font-bold mb-2">
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" className="text-slate-200">
             {title}
           </a>
         </h3>

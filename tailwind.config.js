@@ -22,7 +22,7 @@ module.exports = {
   plugins: [
     plugin(function ({ addBase, theme }) {
       addBase({
-        a: { color: theme("colors.purple.800") },
+        a: { color: theme("colors.purple.200") },
         "a:hover": { textDecoration: "underline" },
       });
     }),

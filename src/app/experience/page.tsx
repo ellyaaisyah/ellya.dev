@@ -1,5 +1,4 @@
 import { JobExperience } from "@/components/JobExperience";
-import { Pill } from "@/components/Pill";
 
 const Experience = () => {
   return (
@@ -25,7 +24,7 @@ const Experience = () => {
           </li>
         </ul>
       </JobExperience>
-      <br />
+
       <JobExperience
         period="Sep 2018 - Oct 2020"
         title="Freelance Web Developer - Institute SI"
@@ -38,7 +37,7 @@ const Experience = () => {
           <li>Used Firebase to manage all the data of the website.</li>
         </ul>
       </JobExperience>
-      <br />
+
       <JobExperience
         period="Oct 2019 - Apr 2023"
         title="Freelance Web Developer - Drieam"
@@ -58,7 +57,7 @@ const Experience = () => {
           </li>
         </ul>
       </JobExperience>
-      <br />
+
       <JobExperience
         period="May 2023 - Present"
         title="Freelance Web Developer - Korsit"
@@ -71,6 +70,10 @@ const Experience = () => {
           company for all of their applications.
         </p>
       </JobExperience>
+
+      <a className="hover:underline" href="/resume.pdf" target="_blank">
+        Get my current resume here.
+      </a>
     </main>
   );
 };

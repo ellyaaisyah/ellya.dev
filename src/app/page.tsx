@@ -16,7 +16,7 @@ export default function Home() {
             />
           </div>
           <div className="typewriter">
-            <h1 className="text-6xl">Hi, I'm Ellya</h1>
+            <h1 className="text-6xl text-purple-800">Hi, I'm Ellya</h1>
           </div>
         </div>
 
