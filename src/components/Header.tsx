@@ -5,7 +5,7 @@ export const Header = () => {
         ellya.dev
       </a>
       <div className="flex gap-1">
-        {/* <a href="/now">/now</a> */}
+        <a href="/experience">/experience</a>
         <a href="/resume.pdf" target="_blank">
           /resume
         </a>
