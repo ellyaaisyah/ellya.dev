@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: #1f0038;
+  /* background: #1f0038; */
   /* background: linear-gradient(
     29deg,
     rgba(76, 0, 136, 1) 0%,
@@ -12,11 +12,11 @@ body {
   ); */
 }
 
-@layer base {
+/* @layer base {
   html {
     color: white;
   }
-}
+} */
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */

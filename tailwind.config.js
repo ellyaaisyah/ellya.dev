@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require("tailwindcss/plugin");
+// const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   content: [
@@ -10,21 +10,21 @@ module.exports = {
   theme: {
     container: {
       padding: "1rem",
-      screens: {
-        sm: "600px",
-        md: "728px",
-        lg: "800px",
-        xl: "800px",
-        "2xl": "800px",
-      },
+      // screens: {
+      //   sm: "600px",
+      //   md: "728px",
+      //   lg: "800px",
+      //   xl: "800px",
+      //   "2xl": "800px",
+      // },
     },
   },
   plugins: [
-    plugin(function ({ addBase, theme }) {
-      addBase({
-        a: { color: theme("colors.purple.200") },
-        "a:hover": { textDecoration: "underline" },
-      });
-    }),
+    // plugin(function ({ addBase, theme }) {
+    //   addBase({
+    //     a: { color: theme("colors.purple.200") },
+    //     "a:hover": { textDecoration: "underline" },
+    //   });
+    // }),
   ],
 };
