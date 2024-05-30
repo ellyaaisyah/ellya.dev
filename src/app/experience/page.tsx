@@ -4,38 +4,26 @@ const Experience = () => {
   return (
     <main className="container mx-auto">
       <JobExperience
-        period="Jul 2015 - Sep 2019"
-        title="Front End Developer - GameHouse"
-        link="https://www.gamehouseoriginalstories.com/games"
-        stack={["HTML", "CSS", "Ionic", "Angular", "React"]}
+        period="May 2023 - Present"
+        title="Freelance Web Developer - Korsit"
+        link="https://korsit.co/"
+        stack={[
+          "NextJS",
+          "React",
+          "TypeScript",
+          "Tailwind",
+          "Vitest",
+          "Turborepo",
+        ]}
       >
-        <ul className="list-disc pl-4">
-          <li>
-            Revamped the layout of an outdated website using a JavaScript
-            framework.
-          </li>
-          <li>
-            Developed a catalogue hybrid app using Ionic framework which also
-            includes a card collecting meta game.
-          </li>
-          <li>
-            Implemented an in-game experience for users to be able to purchase
-            GameHouse subscription model.
-          </li>
-        </ul>
-      </JobExperience>
-
-      <JobExperience
-        period="Sep 2018 - Oct 2020"
-        title="Freelance Web Developer - Institute SI"
-        link="https://www.institutesi.org/"
-        stack={["VueJS", "JavaScript", "SCSS", "Firebase", "Prismic"]}
-      >
-        <ul className="list-disc pl-4">
-          <li>Implemented a responsive website using VueJS.</li>
-          <li>Built a CMS tool to manage the content of the website.</li>
-          <li>Used Firebase to manage all the data of the website.</li>
-        </ul>
+        <li>Build an e-commerce storefront in NextJS + Vercel.</li>
+        <li>Utilize DatoCMS as the headless CMS of choice of the website.</li>
+        <li>Handle tech assessment in interviews.</li>
+        <li>
+          Implement a reusable and customizable components following a custom
+          design system.
+        </li>
+        <li>Initiate and lead a knowledge-sharing tradition.</li>
       </JobExperience>
 
       <JobExperience
@@ -59,19 +47,41 @@ const Experience = () => {
       </JobExperience>
 
       <JobExperience
-        period="May 2023 - Present"
-        title="Freelance Web Developer - Korsit"
-        link="https://korsit.co/"
-        stack={["NextJS", "React", "TypeScript", "Tailwind", "Jest"]}
+        period="Sep 2018 - Oct 2020"
+        title="Freelance Web Developer - Institute SI"
+        link="https://www.institutesi.org/"
+        stack={["VueJS", "JavaScript", "SCSS", "Firebase", "Prismic"]}
       >
-        <p>
-          Deliver a high-quality, maintable, and performant e-commerce website
-          using NextJS. Build a component library to be used throughout the
-          company for all of their applications.
-        </p>
+        <ul className="list-disc pl-4">
+          <li>Implemented a responsive website using VueJS.</li>
+          <li>Built a CMS tool to manage the content of the website.</li>
+          <li>Used Firebase to manage all the data of the website.</li>
+        </ul>
       </JobExperience>
 
-      <a className="hover:underline" href="/resume.pdf" target="_blank">
+      <JobExperience
+        period="Jul 2015 - Sep 2019"
+        title="Front End Developer - GameHouse"
+        link="https://www.gamehouseoriginalstories.com/games"
+        stack={["HTML", "CSS", "Ionic", "Angular", "React"]}
+      >
+        <ul className="list-disc pl-4">
+          <li>
+            Revamped the layout of an outdated website using a JavaScript
+            framework.
+          </li>
+          <li>
+            Developed a catalogue hybrid app using Ionic framework which also
+            includes a card collecting meta game.
+          </li>
+          <li>
+            Implemented an in-game experience for users to be able to purchase
+            GameHouse subscription model.
+          </li>
+        </ul>
+      </JobExperience>
+
+      <a className="hover:underline" href="/resume_2024.pdf" target="_blank">
         Get my current resume here.
       </a>
     </main>
