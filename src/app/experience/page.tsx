@@ -2,7 +2,7 @@ import { JobExperience } from "@/components/JobExperience";
 
 const Experience = () => {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto py-8">
       <JobExperience
         period="May 2023 - Present"
         title="Freelance Web Developer - Korsit"
