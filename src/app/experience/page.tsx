@@ -1,11 +1,12 @@
 import { JobExperience } from "@/components/JobExperience";
+import Link from "next/link";
 
 const Experience = () => {
   return (
     <main className="container mx-auto py-8">
       <JobExperience
         period="May 2023 - Present"
-        title="Freelance Web Developer - Korsit"
+        title="Front End Developer - Korsit"
         link="https://korsit.co/"
         stack={[
           "NextJS",
@@ -28,7 +29,7 @@ const Experience = () => {
 
       <JobExperience
         period="Oct 2019 - Apr 2023"
-        title="Freelance Web Developer - Drieam"
+        title="Front End Developer - Drieam"
         link="https://drieam.com/en/"
         stack={["React", "JavaScript", "TypeScript", "SCSS", "Jest"]}
       >
@@ -81,9 +82,9 @@ const Experience = () => {
         </ul>
       </JobExperience>
 
-      <a className="hover:underline" href="/resume_2024.pdf" target="_blank">
+      <Link className="hover:underline" href="/resume_2024.pdf" target="_blank">
         Get my current resume here.
-      </a>
+      </Link>
     </main>
   );
 };
