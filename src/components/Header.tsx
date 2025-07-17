@@ -1,20 +1,22 @@
+import Link from "next/link";
+
 export const Header = () => {
   return (
     <header className="container mx-auto flex items-center justify-between h-[88px]">
-      <a href="/" className="font-bold">
+      <Link href="/" className="font-bold">
         ellya.dev
-      </a>
+      </Link>
       <div className="flex gap-1">
-        <a href="/experience">/experience</a>
-        <a href="https://github.com/ellyaaisyah" target="_blank">
+        <Link href="/experience">/experience</Link>
+        <Link href="https://github.com/ellyaaisyah" target="_blank">
           /github
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://www.linkedin.com/in/ellya-aisyah-bb657097"
           target="_blank"
         >
           /linkedin
-        </a>
+        </Link>
       </div>
     </header>
   );

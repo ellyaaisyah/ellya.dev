@@ -21,11 +21,5 @@
     "react-dom": "19.1.0",
     "tailwindcss": "4.1.11",
     "typescript": "5.8.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "sharp",
-      "unrs-resolver"
-    ]
   }
 }

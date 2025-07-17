@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Pill } from "./Pill";
 
@@ -21,9 +22,9 @@ export const JobExperience = ({
       <div className="flex-none w-25 text-slate-400 text-sm">{period}</div>
       <div>
         <h3 className="text-xl font-bold mb-2">
-          <a href={link} target="_blank" className="text-slate-200">
+          <Link href={link} target="_blank" className="text-slate-200">
             {title}
-          </a>
+          </Link>
         </h3>
         <div className="mb-2">{children}</div>
 
